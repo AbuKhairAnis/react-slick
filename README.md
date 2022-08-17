@@ -23,7 +23,7 @@ yarn add react-slick
 **Also install slick-carousel for css and font**
 
 ```bash
-npm install slick-carousel
+*Importent =>  npm install slick-carousel
 
 // Import css files
 import "slick-carousel/slick/slick.css";
