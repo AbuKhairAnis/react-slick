@@ -56,11 +56,19 @@ import Slider from "react-slick";
 
 export default function SimpleSlider() {
   var settings = {
+    arrows: false,
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1
+  //More-------
+    fade: true ,
+    speed: 500, // ms
+    autoplay: false,
+    initialSlide: 2,
+    lazyLoad: true,
+    autoplaySpeed: 3000,
   };
   return (
     <Slider {...settings}>
@@ -95,21 +103,7 @@ For all available props, go [here](https://react-slick.neostack.com/docs/api/).
 
 For all available methods, go [here](https://react-slick.neostack.com/docs/api#methods)
 
-### Development
 
-Want to run demos locally
 
-```bash
-git clone https://github.com/akiran/react-slick
-cd react-slick
-npm install
-npm start
-open http://localhost:8080
-```
 
-## Contributing
-
-Please see the [contributing guidelines](./CONTRIBUTING.md)
-
-## usefull Site
 
